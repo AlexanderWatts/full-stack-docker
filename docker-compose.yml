@@ -7,6 +7,8 @@ services:
       - '3000:1234'
     volumes:
       - './frontend:/frontend/'
+    links:
+      - api
   api:
     build: ./api/
     ports: 
