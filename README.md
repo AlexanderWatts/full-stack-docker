@@ -1,0 +1,14 @@
+# Docker setup
+Test to setup and run multiple docker containers for full stack Javascript web app
+
+## Usage
+
+First install docker - https://www.docker.com/
+
+In the root directory run ```docker-compose up --build```
+
+This will use ```docker-compose.yml``` to create containers from the Dockerfiles in both the frontend and api folders
+
+Note: At first this may take some time as it will need to create an initial image
+
+Wait for it to finish building and go to ```localhost:3000```
