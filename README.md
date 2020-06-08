@@ -12,3 +12,9 @@ This will use ```docker-compose.yml``` to create containers from the Dockerfiles
 Note: At first this may take some time as it will need to create an initial image
 
 Wait for it to finish building and go to ```localhost:3000```
+
+Once the app is running you can test an endpoint using Postman or curl
+
+For example typing ```curl http://localhost:4000/``` in a terminal window
+
+Note that the api runs on port 4000 and frontend on 3000
